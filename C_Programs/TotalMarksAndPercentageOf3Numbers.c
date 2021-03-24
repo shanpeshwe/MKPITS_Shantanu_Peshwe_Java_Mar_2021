@@ -11,6 +11,6 @@ void main()
  printf("enter subject 3 marks : ");
  scanf("%f",&n3);
  printf("Total marks = %f / 300",n1+n2+n3  );
- printf("percentage = %f %",((n1+n2+n3)/300)*100);
+ printf("percentage = %f ",((n1+n2+n3)/300)*100);
  getch();
 }
