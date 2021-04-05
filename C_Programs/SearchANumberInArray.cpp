@@ -22,7 +22,7 @@ int main()
 		mid=(low+high)/2;
 		if(num[mid]==nts)
 		{
-			printf("\nNumber %d is at position : %d",nts,cnt);
+			printf("\nNumber %d is at position : %d",nts,num[mid]);
 			break;
 		}
 		else
