@@ -281,4 +281,14 @@
 278 EventHandelingEx3.java
 279 EventHandelingEx4.java
 280	EventHandelingEx5.java
-
+281 AwtDepositWithdrawl
+282	AwtRegisterForm
+283	CheckBoxAwtEx1
+284	CheckBoxAwtEx2
+285	CheckBoxAwtEx3
+286	CheckBoxGroupAwtEx1
+287	CheckBoxGroupAwtEx2
+288	ChoiceAwtEx1
+289 ChoiceAwtEx2
+290	TextAreaAwtEx1
+291 TextFieldAwtEx1
