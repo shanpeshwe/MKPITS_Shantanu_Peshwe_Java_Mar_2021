@@ -1,4 +1,5 @@
 //design calculator layout
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -311,8 +312,12 @@ public class CalculatorUsingAwt {
         b44.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                float r=0.0f;
+                if(op=='%'){
+                    r =(float)pn/100;
+                    t.setText(String.valueOf(r));
+                }
                 n = Integer.parseInt(t.getText());
-                float r=0;
                 if (op == '+')
                     r = pn + n;
                 else if (op == '-')
@@ -320,9 +325,7 @@ public class CalculatorUsingAwt {
                 else if (op == 'x')
                     r = pn * n;
                 else if(op=='/')
-                    r =pn/n;
-                else if(op=='%')
-                    r = pn % 100;
+                    r =(float)pn/n;
                 t.setText(String.valueOf(r));
             }
         });
