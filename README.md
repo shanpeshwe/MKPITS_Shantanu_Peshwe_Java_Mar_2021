@@ -292,3 +292,11 @@
 289 ChoiceAwtEx2
 290	TextAreaAwtEx1
 291 TextFieldAwtEx1
+292	AreaCircumferenceOfCircleUsingAwt
+293	AwtFrameEx5
+294	AwtFrameEx6
+295	CheckForVovelAwt
+296	OrderSwingTerminal
+297	PrimeNumberUsingAwt
+298	SalaryBreakupUsingAwt
+299	TotalPerGradeUsingAwt
