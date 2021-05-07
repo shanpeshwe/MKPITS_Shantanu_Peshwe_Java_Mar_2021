@@ -300,3 +300,16 @@
 297	PrimeNumberUsingAwt
 298	SalaryBreakupUsingAwt
 299	TotalPerGradeUsingAwt
+300	DialogAwtEx
+301	ListAwtEx1
+302	ListWithActionListenerAwtEx1
+303	MenuAwtEx
+304	MenuAwtEx2
+305	PanelAwtEx
+306	PopupMenuAwtEx
+307	ScrollbarAwtEx
+308	ScrollbarHorizontalAwtEx
+309	ScrollbarWithAdjustmentListenrAwtEx
+310	ToolkitBeepAwtEx
+311	ToolkitIconChangeAwtEx
+312	ToolkitScreenResEx
