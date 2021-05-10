@@ -313,3 +313,6 @@
 310	ToolkitBeepAwtEx
 311	ToolkitIconChangeAwtEx
 312	ToolkitScreenResEx
+313 Adapterdemo
+314 AdapterWindowClose
+315 KeyEventEx
