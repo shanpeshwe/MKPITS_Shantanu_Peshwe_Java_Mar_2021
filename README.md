@@ -332,4 +332,16 @@
 329 Stock
 330 StockForm
 331 SupplierForm
+332 BufferedInputStreamEx1
+333 BufferOutputStreamEx1
+334 InputStreamAwtEx1
+335 InputStreamEx1
+336 InputStreamEx2
+337 OutputStreamAwtEx4
+338 OutputStreamEx1
+339 OutputStreamEx2
+340 OutputStreamEx3
+341 SequenceIOstreamEx1
+342 SequenceIOstreamEx2
+343 SequenceIOusingvectorEnumeration
 
