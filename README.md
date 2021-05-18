@@ -344,4 +344,13 @@
 341 SequenceIOstreamEx1
 342 SequenceIOstreamEx2
 343 SequenceIOusingvectorEnumeration
-
+344 CharArrayEx2
+345 CharArrayWriterEx1
+346 FileReaderEx1
+347 FileWriterEx1
+348 PrintStreamEx1
+349 PrintStreamEx2
+350 PrintWriterEx1
+351 SimultaneousWriteAndRead1
+352 
+353 
