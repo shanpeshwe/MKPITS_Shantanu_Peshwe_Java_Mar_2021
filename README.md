@@ -352,5 +352,19 @@
 349 PrintStreamEx2
 350 PrintWriterEx1
 351 SimultaneousWriteAndRead1
-352 
-353 
+352 ThreadCallEx1
+353 ThreadCallEx2
+354 ThreadClassEx1
+355 ThreadCurrentEx1
+356 ThreadEx3
+357 ThreadEx4
+358 ThreadImplementEx1
+359 ThreadImplementEx2
+360 ThreadJoinEx1
+361 ThreadJoinEx2
+362 ThreadNamingEx1
+363 ThreadPriorityEx1
+364 ThreadPriorityEx2
+365 ThreadSleepEx1
+366 ThreadTwiceEx1
+
