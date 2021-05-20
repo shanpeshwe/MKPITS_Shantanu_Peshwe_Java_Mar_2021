@@ -367,4 +367,15 @@
 364 ThreadPriorityEx2
 365 ThreadSleepEx1
 366 ThreadTwiceEx1
+367 DemonEx1
+368 DemonEx2
+369 MultiRunnableThreadEx
+370 MultiTaskEx1
+371 MultiTaskMultiThreadEx1
+372 MultiTaskMultiThreadEx2
+373 MultiTaskMultiThreadEx3
+374 MultiTaskMultiThreadEx4
+375 ThreadGroupEx1
+376 ThreadPoolEx1
+377 ThreadPoolEx2
 
