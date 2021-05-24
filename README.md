@@ -378,4 +378,21 @@
 375 ThreadGroupEx1
 376 ThreadPoolEx1
 377 ThreadPoolEx2
+378 GarbageCollectionEx1
+379 GarbageCollectionEx2
+380 SynchronizationEx2
+381 SynchronizationEx3
+382 SynchronizationEx4
+383 Table
+384 TableEx2
+385 DeadlockEx1
+386 InterThreadCommEx1
+387 StingTokanizerEx1
+388 StringTokenArrayEx2
+389 StringTokenIOEx1
+390 StringTokenIOEx2
+391 StringTokenIOEx3
+392 SyncBlockAnomysEx1
+393 SyncBlockEx2
+394 SyncBlockEx3
 
