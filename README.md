@@ -395,4 +395,9 @@
 392 SyncBlockAnomysEx1
 393 SyncBlockEx2
 394 SyncBlockEx3
+395 PractiseAccountOOPS
+396 PractiseCalculateOOPS
+397 PractiseCustomeOOPS
+398 PractisePersonOOPS
+399 SynchronisedMultiplicationTable
 
