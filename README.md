@@ -400,4 +400,19 @@
 397 PractiseCustomeOOPS
 398 PractisePersonOOPS
 399 SynchronisedMultiplicationTable
-
+400 Draw
+401 ArrayListEmployeeDetails
+402 ArrayListEx1
+403 ArrayListEx2
+404 ArrayListIteratorUsingForEachLoop
+405 ArrayListSetAndGet
+406 ArrayListSetAndGetUsingAwt
+407 ArrayListSetAndGetUsingSwing
+408 ArrayListSortEx1
+409 ArrayListSortInSwing
+410 ArrayListStudentDetails
+411 ArrayListTraverseWithIterator
+412 ArrayListTraversingUsingForEachLoop
+413 ArrayListTraversingUsingForLoop
+414 ArrayListUsingAwtEx1
+415 ArrayListUsingIteratorInSwing
