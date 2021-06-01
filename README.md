@@ -401,7 +401,7 @@
 398 PractisePersonOOPS
 399 SynchronisedMultiplicationTable
 400 Draw
-401 ArrayListEmployeeDetails
+401 PriorityQueEx1
 402 ArrayListEx1
 403 ArrayListEx2
 404 ArrayListIteratorUsingForEachLoop
@@ -475,4 +475,9 @@
 472 MapValueCompareEx1
 473 MapValueCompareEx2
 474 PriorityQueBookEx
-475 PriorityQueEx1
+475 ServerEx1
+476 ServerEx2
+477 ClientEx1
+478 ClientEx2
+479 ServerInSwing
+480 ClientInSwing
