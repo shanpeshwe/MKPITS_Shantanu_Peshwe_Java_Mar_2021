@@ -501,7 +501,12 @@
 1 Table
 2 W3c
 3 HtmlBasicsEx1
-4 
-5 
-6 
-7 
+4 ClassAttribute
+5 CssFlexBoxEx
+6 HtmlFormEx
+7 mkpits
+8 MkpitsDemoPage1
+9 MkpitsDemoPageBootstrap1
+10 ResponsiveWebDesignEx
+11 ResponsiveWebDesignEx2
+12 
