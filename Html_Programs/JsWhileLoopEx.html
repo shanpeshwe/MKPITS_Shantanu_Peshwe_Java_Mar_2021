@@ -1,0 +1,41 @@
+example of while
+<!DOCTYPE html>
+<html>
+<script>
+	
+	function cal() {
+	
+	let n1,i,total;
+	total=0;
+	i=1;
+	n1=parseInt(document.f1.n1.value);
+	document.getElementById("res").innerHTML="";
+	while(i<=10) {
+	total = n1 * i;
+	document.getElementById("res").innerHTML += n1 + "*" + i + "=" + total + "<br>";
+	i++;
+	}
+	}
+	
+</script>
+<body>
+
+<h1 align=center>javascript</h1>
+	
+	<form name="f1">
+	<fieldset><legend>example</legend>
+	num1 : <input type=text name="n1" id="n1" />
+
+	
+	
+	<br><br>
+	
+	<button type=button onclick="cal()" >calculate </button> <br><br>
+	
+	<div style="border:1px solid gray; padding:10px;background-color:tomato;color:white;" id="div1" name="div1">
+	<span  name="res" id="res" > </span>
+	</div>
+	</fieldset>
+	</form>
+</body>
+</html>

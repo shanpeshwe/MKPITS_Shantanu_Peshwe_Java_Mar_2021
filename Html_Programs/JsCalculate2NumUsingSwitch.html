@@ -1,0 +1,58 @@
+wap to calculate 2 no using switch statement
+<!DOCTYPE html>
+<html>
+<script>
+	
+	function cal() {
+	
+	let n1,n2,op,total;
+	total=0;
+	n1=parseInt(document.f1.n1.value);
+	n2=parseInt(document.f1.n2.value);
+	op=document.f1.op.value;
+	switch(op) {
+	case "+":
+	total=n1+n2;
+	break;
+	case "-":
+	total=n1-n2;
+	break;
+	
+	case "*":
+	total=n1*n2;
+	break;
+	default:
+	alert("invalid operator");//will show in alert dialog box
+	break;
+	
+	
+	}
+	document.getElementById("res").innerHTML=total;
+	}
+	
+</script>
+<body>
+
+<h1 align=center>javascript</h1>
+	
+	<form name="f1">
+	<fieldset><legend>switch example</legend>
+	num1 : <input type=text name="n1" id="n1" />
+
+	<br><br>
+	num2 : <input type=text name="n2" id="n2" />
+	
+	<br><br>
+	operator : <input type=text name="op" id="op" />
+	
+	<br><br>
+	
+	<button type=button onclick="cal()" >calculate </button> <br><br>
+	
+	<div style="border:1px solid gray; padding:10px;background-color:tomato;color:white;" id="div1" name="div1">
+	<span  name="res" id="res" > </span>
+	</div>
+	</fieldset>
+	</form>
+</body>
+</html>

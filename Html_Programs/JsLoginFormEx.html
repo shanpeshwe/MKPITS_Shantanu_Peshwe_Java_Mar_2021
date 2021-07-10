@@ -1,0 +1,66 @@
+create a login function and if user enter username as admin and password as admin then 
+display "login successfull " other wise display "invalid username or password"
+and display message "enter name " if user leaves the username text box blank
+<!DOCTYPE html>
+<html>
+<script>
+	
+	function check() {
+	
+	let u,p,cnt;
+	u=document.f1.username.value;
+	p=document.f1.pwd.value;
+	cnt=0;
+	
+	if(u == "") {
+	document.getElementById("uv").innerHTML="enter username please";
+	cnt=cnt+1;
+	} else {
+	document.getElementById("uv").innerHTML="";
+	
+	}
+	
+	if(p == "") {
+	document.getElementById("pv").innerHTML="enter password please";
+	cnt=cnt+1;
+	} else {
+	document.getElementById("pv").innerHTML="";
+	}
+	
+	
+	if(cnt == 0 ) {
+	if(u == "admin" && p == "admin") {
+	document.getElementById("res").innerHTML="login successfull";
+	} else {
+	
+	document.getElementById("res").innerHTML="invalid username or password , try again!";
+	}
+	}
+	else {
+	document.getElementById("res").innerHTML="";
+	}
+	}
+	
+</script>
+<body>
+
+<h1 align=center>javascript</h1>
+	
+	<form name="f1">
+	<fieldset><legend>Login form</legend>
+	Username : <input type=text name="username" id="username" />
+<span style="color:red;" id="uv">*</span>
+	<br><br>
+	Password : <input type=password name="pwd" id="pwd" />
+	<span style="color:red;" id="pv">*</span>
+	<br><br>
+	
+	<button type=button onclick="check()" >sign in </button> <br><br>
+	
+	<div style="border:1px solid gray; padding:10px;background-color:tomato;color:white;" id="div1" name="div1">
+	<span  name="res" id="res" > </span>
+	</div>
+	</fieldset>
+	</form>
+</body>
+</html>

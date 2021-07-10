@@ -1,0 +1,33 @@
+create a html form to accept 2 no. and then add it using by document.form.element
+<!DOCTYPE html>
+<html>
+<script>
+	function add() {
+	let n1,n2,res;
+	n1=parseInt(document.f1.num1.value);
+	n2=parseInt(document.f1.num2.value);
+	res=n1+n2;
+	//alert("add of two no. is " + res)
+	document.getElementById("res").innerHTML=res;
+	document.f1.res1.value=res;
+	document.getElementById("div1").innerHTML="Result : " +res;
+	}
+	
+</script>
+<body>
+
+<h1 align=center>javascript</h1>
+	
+	<form name="f1">
+	<fieldset><legend>enter values</legend>
+	enter number1 : <input type=text name="num1" id="num1" /> <br><br>
+	enter number2 : <input type=text name="num2" id="num2" /> <br><br>
+	<input type=button onclick="add()" value="add numbers" /> <br><br>
+	Result : <span  name="res" id="res" > </span> <br><br>
+	Result : <input type=text name="res1" id="res1" /> <br><br>
+	<div style="border:1px solid gray; padding:10px;background-color:tomato;color:white;" id="div1" name="div1">
+	</div>
+	</fieldset>
+	</form>
+</body>
+</html>

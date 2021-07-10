@@ -1,0 +1,23 @@
+changing the imagesize on mouseover and mouseout event
+<!DOCTYPE html>
+<html>
+<body>
+
+<img id="myImg" src="img11.jpg" width="100" height="132"  onmouseover="myFunction()" onmouseout="myFunction1()">
+<br>
+
+<button type="button" onclick="myFunction()">Change height and width of image</button>
+
+<script>
+function myFunction() {
+  document.getElementById("myImg").style.height = "300px";
+  document.getElementById("myImg").style.width = "300px";
+}
+function myFunction1() {
+  document.getElementById("myImg").style.height = "100px";
+  document.getElementById("myImg").style.width = "100px";
+}
+</script>
+
+</body>
+</html>

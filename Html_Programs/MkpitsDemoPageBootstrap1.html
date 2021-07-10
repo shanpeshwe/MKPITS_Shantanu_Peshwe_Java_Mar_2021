@@ -7,65 +7,51 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  
-  <style>
-	a { border:2px solid white; 
-	margin-left:70px;}
-	a:link, a:visited {
-	border-radius:30px ;
-	color: white;
-	padding: 8px 25px 8px ;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	}
-
-	a:hover, a:active {
-	background-color: green;
-	}
-	
-	.a { border:2px solid white; 
-	margin-left:70px;}
-	.a:link, .a:visited {
-	border-radius:30px ;
-	color: white;
-	padding: 8px 25px 8px ;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	}
-
-	.a:hover, .a:active {
-	background-color: green;
-	}
-	
-</style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-<div class="jumbotron">
-	<div style="text-align:center;float:left;width:100%;color:black;">
-	<div style="float:left;width:20%">
-	<img src="MKPITS_Logo.png" width=95; height=75 />
-	</div>
 
-	<div style="float:left;width:80%;text-align:right;padding-right:35px;word-spacing:15px;color:black;">
-	<b>Home 
-	About
-	Courses 
-	Admission 
-	Job Placement
-	Contact</b>
+<nav class="navbar navbar navbar-dark">
+	<div style="padding-left:100px;padding-bottom:10px;padding-top:10px">
+	<img src="MKPITS_Logo.png" width=95; height=80 />
 	</div>
-	</div>
-</div>
+  <ul class="nav justify-content-end">
+    <li class="nav-item active">
+      <a class="nav-link" style="color:black" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" style="color:black" href="#">About</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">Courses</a>
+	  <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">All Courses</a>
+        <a class="dropdown-item" href="#">JAVA</a>
+        <a class="dropdown-item" href="#">PYTHON</a>
+		<a class="dropdown-item" href="#">DOTNET</a>
+		<a class="dropdown-item" href="#">PHP</a></div>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" style="color:black" href="#">Admission</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" style="color:black" href="#">Job Placement</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" style="color:black" href="#">Contact</a>
+    </li>
+  </ul>
+</nav>
 	
 <div class="jumbotron" style="background-image:url('ITCoding.png');margin:0px;">
   <h1 style="color:white;padding-top:30px;padding-left:70px"><b>Learning Today, <br>
 		Leading Tomorrow</b></h1>
 		<h4 style="color:white;padding-left:70px;">We are a team of highly experienced people helping freshers to secure job in IT.</h4>
 		<br>
-		<h5><a href="https://mkpits.in/courses.html" target="_blank">Get Started</a></h5>
+		<h5 style="padding-left:100px"><button type="button" class="btn btn-outline-success">Get Started</h5></button>
 </div>
 
 <br><br>
@@ -252,7 +238,7 @@
 </div>	
 
 <div style="font-size:20px; padding-top:50px;padding-left:100px">
-	<b style="color:green">----------------------------------------------</b>
+	<hr style="width:10%;text-align:left;margin-left:0px;background-color:green">
 </div>
 
 <div style="font-size:40px;padding-left:100px">
