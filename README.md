@@ -547,3 +547,10 @@
 47 ResponsiveTableex
 48 ResponsiveWebDesignEx
 49 ResponsiveWebDesignEx2
+
+# Advanced_Java_Programs
+1 to 8 Servlet
+9 to 30 8JulyJsp
+31 to 43 12JulyJsp
+44 to 54 13JulyJspTags
+55 to 67 CrudJsp

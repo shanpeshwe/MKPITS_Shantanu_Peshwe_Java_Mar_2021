@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="RegistrationForm.jsp" method="post">
+            <fieldset> <legend>Enter Details</legend>
+                Name : 
+                <input name="name" type="text">
+                <br><br>
+                Gender : 
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <br><br>
+                Address : 
+                <input type="text" name="address">
+                <br><br>
+                City : 
+                <select name="city">
+                    <option value="nagpur">Nagpur</option>
+                    <option value="pune">Pune</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="nashik">Nashik</option>
+                </select> 
+                <br><br>
+                Contact Number :
+                <input type="text" name="number">
+                <br><br>
+                Course:
+                <input type="checkbox" name="c1" value="java" /> Java
+                <input type="checkbox" name="c2" value="python" /> Python
+                <input type="checkbox" name="c3" value="c++" /> C++
+                <input type="checkbox" name="c4" value="html" /> HTML
+                <br><br>
+                <input type="submit" value="ok" />
+            </fieldset>    
+        </form>    
+    </body>
+</html>

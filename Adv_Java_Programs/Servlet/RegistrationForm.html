@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>MKPITS Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>mkpits solutions!</h1>
+        <form action="myservlet" method="get">
+            <fieldset> <legend>"enter details"</legend>
+            enter username :
+            <input type="text" name="username" />
+            <br><br>
+             enter password :
+            <input type="password" name="pwd" />
+            <br><br>
+             gender:
+            <input type="radio" name="gender" value="male" /> male
+            <input type="radio" name="gender" value="female" /> female
+            <br><br>
+             course:
+            <input type="checkbox" name="c1" value="java" /> java
+            <input type="checkbox" name="c2" value="python" /> python
+            <br><br>
+             city:
+             <select name="city">
+                 <option value="nagpur">nagpur</option>
+                 <option value="mumbai">mumbai</option>
+                 <option value="delhi">delhi</option>
+             </select>
+            <br><br>
+            
+            
+            <input type="submit" value="ok" />
+            </fieldset>
+            
+        </form>
+
+    </body>
+</html>
