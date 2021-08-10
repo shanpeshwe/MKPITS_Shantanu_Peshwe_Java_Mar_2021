@@ -202,6 +202,8 @@
         <h1 class="h3 mb-0 text-gray-800">Search Receipts</h1>
         <p class="mb-4">Manage your customer Receipts transaction here</p>
         <hr><br>
+         Name : <input type="text" name="text" >
+        <input type="button" class=" btn-primary " name="submit"value="Search" color="success" ></input><hr>
 
 <!--<input type="button" class=" btn-primary " name="submit"value="Make Receipt" color="primary" ></input>-->
 
