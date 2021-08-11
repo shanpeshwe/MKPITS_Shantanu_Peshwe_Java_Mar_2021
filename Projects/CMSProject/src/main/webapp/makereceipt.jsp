@@ -1,16 +1,13 @@
-
---><head><!--
+<head>
  <jsp:include page="menubar.html"></jsp:include> 
---></head><!--
+</head>
 
  
       <!-- End of Topbar -->
 
       <!-- Begin Page Content -->
       <div class="container-fluid">
-        <!-- Page Heading -->
-<!--        <h1 class="h3 mb-0 text-gray-800">Search Customer</h1>-->
-<!--        <p class="mb-4">Manage your customer accounts here</p>-->
+ 
         <body class="bg-gradient-primary">
 
         <div class="container">

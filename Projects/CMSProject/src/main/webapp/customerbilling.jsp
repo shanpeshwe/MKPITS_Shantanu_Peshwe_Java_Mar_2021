@@ -1,10 +1,6 @@
-
---><head><!--
-<jsp:include page="menubar.html"></jsp:include>
---></head><!--
-
- 
-       End of Topbar -->
+<head>
+ <jsp:include page="menubar.html"></jsp:include> 
+</head>
 
       <!-- Begin Page Content -->
       <div class="container-fluid">
