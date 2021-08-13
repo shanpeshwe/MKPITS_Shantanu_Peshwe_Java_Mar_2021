@@ -1,4 +1,5 @@
  <head>
+     <title>CMS - Profile</title>
  <jsp:include page="menubar.html"></jsp:include> 
 </head>
 
@@ -67,13 +68,23 @@
     </div>
 </div>
     
+<!-- Bootstrap core JavaScript-->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<!-- Bootstrap core JavaScript - for search and master expand-->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Core plugin JavaScript-->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-<!-- Custom scripts for all pages - for side bar minimize-->
-<script src="js/sb-admin-2.min.js"></script>
+        <!-- Custom scripts for all pages-->
+        <script src="js/sb-admin-2.min.js"></script>
+
+
+    <!-- Bootstrap core JavaScript - for search and master expand-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for all pages - for side bar minimize-->
+    <script src="js/sb-admin-2.min.js"></script>
 </body>
 
 </html>

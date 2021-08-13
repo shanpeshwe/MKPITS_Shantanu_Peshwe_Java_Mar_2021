@@ -1,4 +1,5 @@
 <head>
+    <title>CMS - Add Customer</title>
  <jsp:include page="menubar.html"></jsp:include> 
 </head>
 
