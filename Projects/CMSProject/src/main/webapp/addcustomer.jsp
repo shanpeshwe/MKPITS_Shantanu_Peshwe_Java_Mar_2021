@@ -5,8 +5,8 @@
       <!-- Begin Page Content -->
       <div class="container-fluid">
         <!-- Page Heading -->
-        <h1 class="h3 mb-0 text-gray-800">Customer Info</h1>
-        <p class="mb-4">Manage your customer accounts here</p>
+        <h1 class="h3 mb-0 text-gray-800"> Add New Customer </h1>
+        <p class="mb-4">Add your new customer accounts here</p>
         <hr><br>
 
         <!--        <input type="button" class=" btn-primary " name="submit"value="Make Receipt" color="primary" ></input>-->
@@ -15,120 +15,124 @@
         <!--        By Period : <input type="number">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
         <!--        By City : <input type="city">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input type="button" class=" btn-primary " name="submit"value="Add Customer" color="success" ></input>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="search" name="search" value="search" placeholder="search"> <input type="button" class=" btn-primary " name="submit"value="Search" color="success" ></input>
-        <!--        <div class="card-body">-->
-        <!--          <div class="table-responsive">-->
-        <!--            <table class="table table-bordered"  width="100%" cellspacing="0">-->
-        <!--              <thead>-->
-        <!--              <tr>-->
-        <!--                <th>From Date:</th>-->
-        <!--                <input type="date" name="date" />-->
-        <!--                <th>To Date:</th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
-        <!--                <input type="date" name="date" />-->
-        <!--              </tr>-->
-        <!--              </thead>-->
-        <!--            </table>-->
-        <!--          </div>-->
-        <!--        </div>-->
+        <div class="container-fluid">
+ 
+        <body class="bg-gradient-primary">
 
+        <div class="container">
 
-        <!--        <input type="button" class=" btn-success " name="submit"value="Search" color="success" ></input><br><hr>-->
-<!--        <h6 class="m-0 font-weight-bold text-primary">Active Connections</h6>-->
-        <br><br><br><h3 class="m-0 font-weight-bold text-primary">Customer List</h3><br>
+          <!-- Outer Row -->
+          <div class="row justify-content-center">
 
-      </div>
-      <div class="card-body card shadow mb-4">
-      <div class="card-body">
-        <div class="table-responsive">
-          <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-            <thead>
-            <tr>
-              <th>User Id</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Phone Number</th>
-              <th>Amount</th>
-              <th>Address</th>
-              <th>Email</th>
-              <th>Package</th>
-              <th>Area</th>
-              <th>Set-top box no.</th>
-              <th>Status</th>
-            </tr>
+            <div class="col-xl-10 col-lg-12 col-md-9">
 
+              <div class="card o-hidden border-0 shadow-lg my-5">
+                <div class="card-body p-0">
+                  <!-- Nested Row within Card Body -->
+                  <div class="row">
+                    <!--            //dog image here-->
+                    <!--            <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>-->
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-6">
+                      <div class="p-5">
+                        <div class="text-center">
+                          <h1 class="h4 text-gray-900 mb-4"><strong>Add Your Customer</strong></h1>
+                        </div>
+                        <div class="card-body card shadow mb-8" >
+                          <form class="user">
+                            <div class="form-group" >
+                              <input type="text" style="align:center" class="form-control form-control-user"
 
+                                     placeholder="Set-top Boxno.">
+                            </div>
+                              <div class="form-group">
+                              <input type="text" class="form-control form-control-user"
+                                     placeholder="First Name" required>
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="form-control form-control-user"
+                                     placeholder="Last Name" >
+                            </div>
+                            <div class="form-group">
+                              <input type="number" class="form-control form-control-user"
+                                     placeholder="Amount" required>
+                            </div>
+                              <div class="form-group">
+                              <input type="number" class="form-control form-control-user"
+                                     placeholder="Phone Number" required >
+                            </div>
+                             
+                            <div class="form-group">
+                              <input type="text" class="form-control form-control-user"
+                                     placeholder="Address" required>
+                            </div>
+                              <div class="form-group">
+                              <input type="number" class="form-control form-control-user"
+                                     placeholder="Package" required >
+                            </div>
+                              <div class="form-group">
+                              <input type="text" class="form-control form-control-user"
+                                     placeholder="Area" required>
+                            </div>
+                            <!--                  <div class="form-group">-->
+                            <!--                    <div class="custom-control custom-checkbox small">-->
+                            <!--                      <input type="checkbox" class="custom-control-input" id="customCheck">-->
+                            <!--                      <label class="custom-control-label" for="customCheck">Remember-->
+                            <!--                        Me</label>-->
+                            <!--                    </div>-->
+                            <!--                  </div>-->
+                            <input type="submit" value="Add Customer" class="btn btn-primary btn-user btn-block">
+<!--                            <br> <a href="index.html" class="btn btn-primary btn-user btn-block">
+                              Add Customer
+                            </a>-->
+                            <hr>
+                            <!--                  <a href="index.html" class="btn btn-google btn-user btn-block">-->
+                            <!--                    <i class="fab fa-google fa-fw"></i> Login with Google-->
+                            <!--                  </a>-->
+                            <!--                  <a href="index.html" class="btn btn-facebook btn-user btn-block">-->
+                            <!--                    <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook-->
+                            <!--                  </a>-->
 
-            <tbody>
-            <tr>
-              <td>1</td>
-              <td>Karan</td>
-              <td>tandon</td>
-              <td>954632145</td>
-              <td>1000</td>
-              <td>mumbai</td>
-              <td>Karan@gmail.com</td>
-              <td>500</td>
-              <td>lalbag</td>
-              <td>556</td>
-              <td>Active</td>
+                          </form>
+                        </div>
+                        <hr>
+                        <!--                <div class="text-center">-->
+                        <!--                  <a class="small" href="forgot-password.html">Forgot Password?</a>-->
+                        <!--                </div>-->
+                        <!--                <div class="text-center">-->
+                        <!--                  <a class="small" href="register.html">Create an Account!</a>-->
+                        <!--                </div>-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
+            </div>
 
+          </div>
 
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>ramesh</td>
-              <td>kanin</td>
-              <td>965432145</td>
-              <td>2000</td>
-              <td>nagpur</td>
-              <td>ramesh@gmail.com</td>
-              <td>600</td>
-              <td>gandibag</td>
-              <td>558</td>
-              <td>Active</td>
-
-
-            <tr>
-              <td>3</td>
-              <td>jayesh</td>
-              <td>kumar</td>
-              <td>652415</td>
-              <td>3000</td>
-              <td>pune</td>
-              <td>Jayesh@gmail.com</td>
-              <td>800</td>
-              <td>sitapur</td>
-              <td>554</td>
-              <td>Active</td>
-
-
-            </tr>
-
-
-            </tbody>
-          </table>
         </div>
+
+
+        <!-- Bootstrap core JavaScript-->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core plugin JavaScript-->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for all pages-->
+        <script src="js/sb-admin-2.min.js"></script>
+
+
+
+
+
       </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
   </div>
 </div>
-</div>
-
 <!-- Bootstrap core JavaScript - for search and master expand-->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

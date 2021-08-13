@@ -29,7 +29,7 @@
                         <div class="text-center">
                           <h1 class="h4 text-gray-900 mb-4"><strong>Generate Your Receipt</strong></h1>
                         </div>
-                        <div class="card-body card shadow mb-4" >
+                        <div class="card-body card shadow mb-6" >
                           <form class="user">
                             <div class="form-group" >
                               <input type="text" style="align:center" class="form-control form-control-user"
@@ -38,7 +38,7 @@
                             </div>
                             <div class="form-group">
                               <input type="number" class="form-control form-control-user"
-                                     placeholder="Balance">
+                                     placeholder="Balance" disabled>
                             </div>
                             <div class="form-group">
                               <input type="number" class="form-control form-control-user"
@@ -55,7 +55,7 @@
                             <!--                        Me</label>-->
                             <!--                    </div>-->
                             <!--                  </div>-->
-                            <a href="index.html" class="btn btn-primary btn-user btn-block">
+                            <br> <a href="index.html" class="btn btn-primary btn-user btn-block">
                               Generate Receipt
                             </a>
                             <hr>
