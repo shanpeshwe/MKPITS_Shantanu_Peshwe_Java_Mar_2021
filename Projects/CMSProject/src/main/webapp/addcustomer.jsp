@@ -9,12 +9,6 @@
         <p class="mb-4">Add your new customer accounts here</p>
         <hr><br>
 
-        <!--        <input type="button" class=" btn-primary " name="submit"value="Make Receipt" color="primary" ></input>-->
-
-<!--        By Month : <input type="month">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
-        <!--        By Period : <input type="number">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
-        <!--        By City : <input type="city">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
-
         <div class="container-fluid">
  
         <body class="bg-gradient-primary">
@@ -32,8 +26,8 @@
                   <div class="row">
                     <!--            //dog image here-->
                     <!--            <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>-->
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
                       <div class="p-5">
                         <div class="text-center">
                           <h1 class="h4 text-gray-900 mb-4"><strong>Add Your Customer</strong></h1>
@@ -43,7 +37,7 @@
                             <div class="form-group" >
                               <input type="text" style="align:center" class="form-control form-control-user"
 
-                                     placeholder="Set-top Boxno.">
+                                     placeholder="Set-top Boxno." required>
                             </div>
                               <div class="form-group">
                               <input type="text" class="form-control form-control-user"
@@ -53,10 +47,6 @@
                               <input type="text" class="form-control form-control-user"
                                      placeholder="Last Name" >
                             </div>
-                            <div class="form-group">
-                              <input type="number" class="form-control form-control-user"
-                                     placeholder="Amount" required>
-                            </div>
                               <div class="form-group">
                               <input type="number" class="form-control form-control-user"
                                      placeholder="Phone Number" required >
@@ -64,8 +54,13 @@
                              
                             <div class="form-group">
                               <input type="text" class="form-control form-control-user"
-                                     placeholder="Address" required>
+                                     placeholder="Address">
                             </div>
+                              <div class="form-group">
+                              <input type="text" class="form-control form-control-user"
+                                     placeholder="Email">
+                            </div>
+                              
                               <div class="form-group">
                               <input type="number" class="form-control form-control-user"
                                      placeholder="Package" required >

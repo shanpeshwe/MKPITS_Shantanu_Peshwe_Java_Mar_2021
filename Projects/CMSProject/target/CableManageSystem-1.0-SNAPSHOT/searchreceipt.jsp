@@ -58,7 +58,7 @@
                 <td>Amit</td>
                 <td>500</td>
                 <td>View</td>
-                <td>Delete</td>
+                 <td><a href="#">Delete</a></td>
               </tr>
               <tr>
                 <td>2</td>
@@ -66,7 +66,7 @@
                 <td>Ravi</td>
                 <td>100</td>
                 <td>View</td>
-                <td>Delete</td>
+                 <td><a href="#">Delete</a></td>
               </tr>
               <tr>
                 <td>3</td>
@@ -74,7 +74,7 @@
                 <td>Arjun</td>
                 <td>400</td>
                 <td>View</td>
-                <td>Delete</td>
+                <td><a href="#">Delete</a></td>
               </tr>
               <tr>
                 <td>4</td>
@@ -82,7 +82,7 @@
                 <td>Karan</td>
                 <td>900</td>
                 <td>View</td>
-                <td>Delete</td>
+                <td><a href="#">Delete</a></td>
               </tr>
               <tr>
                 <td>5</td>
@@ -90,7 +90,7 @@
                 <td>dilip</td>
                 <td>600</td>
                 <td>View</td>
-                <td>Delete</td>
+                <td><a href="#">Delete</a></td>
               </tr>
               <tr>
                 <td></td>
