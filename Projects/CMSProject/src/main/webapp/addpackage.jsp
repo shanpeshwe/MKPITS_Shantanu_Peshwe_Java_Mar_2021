@@ -1,6 +1,7 @@
 <head>
     <title>CMS - Add Package</title>
  <jsp:include page="menubar.html"></jsp:include> 
+ 
 </head>
 
       <!-- Begin Page Content -->
@@ -14,12 +15,16 @@
                     <form>
                         <!-- Row 1 -->
                         <div class="form-group row">
-                            <label class="col-sm-2 col-form-label">By Package Name :</label>
+                            <label class="col-sm-2 col-form-label">By Package Name:</label>
                             <div class="col-sm-3">
-                                <input class="form-control" id="stbnumber" placeholder="Enter Package Name">
+                                <input class="form-control" id="stbnumber" placeholder="Package Name">
+                            </div>
+                            <label class="col-sm-2 col-form-label">By Package Amount:</label>
+                            <div class="col-sm-3">
+                                <input class="form-control" id="customername" placeholder="Package Amount">
                             </div>
                             <div class="col-sm-2">
-                            <button type="submit" class="btn btn-primary">Add Package</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
                             </div>
                         </div>
                     </form>
@@ -27,7 +32,7 @@
                 <hr>
       
                 
-                <br><br><br><h3 class="m-0 font-weight-bold text-primary">Customer Package List</h3><br>
+                <br><h3 class="m-0 font-weight-bold text-primary">Customer Package List</h3><br>
 
             </div>
       
@@ -40,31 +45,30 @@
                             <tr>
                                 <th>Package Name</th>
                                 <th>Package Amount</th>
-                                <th>Edit</th>
-                                <th>Delete</th>
+                                <th>Action</th>
                             </tr>
 
                             <tbody >
 
                             <tr>
-                                <td>Gold</td>
+                                <td>Silver</td>
                                 <td>200/-</td>
-                                <td><a href="#">Edit</a></td>
-                                <td><a href="#">Delete</a></td>
+                                <td><a href="#"><span class="glyphicon glyphicon-pencil"></span></a><a href="#">
+          <span class="glyphicon glyphicon-trash"></span></a></td>
                             </tr>
 
                             <tr>
-                                <td>Silver</td>
+                                <td>Gold</td>
                                 <td>400/-</td>
-                                <td><a href="#">Edit</a></td>
-                                <td><a href="#">Delete</a></td>
+                                <td><a href="#"><span class="glyphicon glyphicon-pencil"></span></a><a href="#">
+          <span class="glyphicon glyphicon-trash"></span></a></td>
                             </tr>
 
                             <tr>
                                 <td>Platinum </td>
-                                <td>300/-</td>
-                                <td><a href="#">Edit</a></td>
-                                <td><a href="#">Delete</a></td>
+                                <td>600/-</td>
+                                <td><a href="#"><span class="glyphicon glyphicon-pencil"></span></a><a href="#">
+          <span class="glyphicon glyphicon-trash"></span></a></td>
                             </tr>
 
                             </tbody>
