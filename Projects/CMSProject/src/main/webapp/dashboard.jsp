@@ -1,4 +1,5 @@
 <head>
+     <title>CMS - Dashboard</title>
  <jsp:include page="menubar.html"></jsp:include> 
 </head>
 
@@ -94,7 +95,7 @@
                                             <div class="text-s font-weight-bold text-danger text-uppercase mb-1">
                                                 Total &nbsp;&nbsp;&nbsp;&nbsp; Balance</div>
                                             <br>
-                                            <div class="h3 mb-0 font-weight-bold text-gray-800">&#8377;1800</div>
+                                            <div class="h3 mb-0 font-weight-bold text-gray-800">&#8377;255000</div>
                                         </div>
                                         <div class="col-auto">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-exclamation-square-fill text-danger" viewBox="0 0 16 16">
@@ -158,7 +159,15 @@
             </div>
         </div>
     </div>
+<!-- Bootstrap core JavaScript-->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+        <!-- Core plugin JavaScript-->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for all pages-->
+        <script src="js/sb-admin-2.min.js"></script>
 
 
     <!-- Bootstrap core JavaScript - for search and master expand-->
