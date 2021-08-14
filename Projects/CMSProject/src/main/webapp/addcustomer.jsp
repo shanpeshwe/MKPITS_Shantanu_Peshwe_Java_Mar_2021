@@ -31,7 +31,7 @@
                     <div class="col-lg-8">
                       <div class="p-5">
                         <div class="text-center">
-                          <h1 class="h4 text-gray-900 mb-4"><strong>Add Your Customer</strong></h1>
+                          <h1 class="h4 text-gray-900 mb-4"><strong>Add Your New Customer</strong></h1>
                         </div>
                         <div class="card-body card shadow mb-8" >
                           <form class="user">
@@ -57,19 +57,39 @@
                               <input type="text" class="form-control form-control-user"
                                      placeholder="Address">
                             </div>
-                              <div class="form-group">
+                              <div class="form-group" >
                               <input type="text" class="form-control form-control-user"
                                      placeholder="Email">
                             </div>
+                               <div class="form-group" >
+                                
+<!--                            <label>State (Select your State)</label>-->
+                            <select class="form-control "form-control-user   >
+                                <option>Silver</option>
+                                <option>Gold</option>
+                                <option>Platinium</option>
+                                
+                            </select>
+                        </div>
                               
-                              <div class="form-group">
+<!--                              <div class="form-group">
                               <input type="number" class="form-control form-control-user"
                                      placeholder="Package" required >
-                            </div>
-                              <div class="form-group">
+                            </div>-->
+                             <div class="form-group" border-radius: 25px;>
+                                
+<!--                            <label>State (Select your State)</label>-->
+                            <select class="form-control "form-control-user  >
+                                <option>Gandhibag</option>
+                                <option>Mahal</option>
+                                <option>Sadar</option>
+                                
+                            </select>
+                        </div>
+<!--                              <div class="form-group">
                               <input type="text" class="form-control form-control-user"
                                      placeholder="Area" required>
-                            </div>
+                            </div>-->
                             <!--                  <div class="form-group">-->
                             <!--                    <div class="custom-control custom-checkbox small">-->
                             <!--                      <input type="checkbox" class="custom-control-input" id="customCheck">-->
@@ -81,7 +101,7 @@
 <!--                            <br> <a href="index.html" class="btn btn-primary btn-user btn-block">
                               Add Customer
                             </a>-->
-                            <hr>
+                            
                             <!--                  <a href="index.html" class="btn btn-google btn-user btn-block">-->
                             <!--                    <i class="fab fa-google fa-fw"></i> Login with Google-->
                             <!--                  </a>-->
