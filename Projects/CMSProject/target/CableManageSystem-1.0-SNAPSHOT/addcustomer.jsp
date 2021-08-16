@@ -79,7 +79,6 @@
                                                             <option>Gandhibag</option>
                                                             <option>Mahal</option>
                                                             <option>Sadar</option>
-
                                                         </select>
                                                     </div>
                                                     <input type="submit" value="Add Customer" class="btn btn-primary btn-user btn-block">
