@@ -1,4 +1,2 @@
 com\mycompany\cablemanagesystem\resources\JavaEE8Resource.class
 com\mycompany\cablemanagesystem\JAXRSConfiguration.class
-bean\ConnectionProvider.class
-bean\Provider.class
