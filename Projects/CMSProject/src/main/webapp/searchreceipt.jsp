@@ -1,7 +1,13 @@
 
 <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
     <title>CMS - Receipt</title>
  <jsp:include page="menubar.html"></jsp:include> 
+ 
 </head>
   
       <!-- End of Topbar -->
@@ -67,8 +73,8 @@
                 <th>First Name</th>
                 <th>Last Name</th>
                 <th>Balance Amount</th>
-                <th>View</th>
-                <th>Delete</th>
+<!--                <th>View</th>-->
+                <th>Actions</th>
               </tr>
               </thead>
               <tbody>
@@ -78,8 +84,14 @@
                 <td>Amit</td>
                 <td>Sharma</td>
                 <td>500</td>
-                <td>View</td>
-                 <td><a href="#">Delete</a></td>
+<!--                <td><a href="#">
+          <span class="glyphicon glyphicon-eye-open"></span>
+        </a></td>-->
+                 <td><a href="#">
+          <span class="glyphicon glyphicon-pencil"></span>
+        </a> <a href="#">
+          <span class="glyphicon glyphicon-trash"></span>
+        </a></td>
               </tr>
               <tr>
                 <td>2</td>
@@ -87,8 +99,14 @@
                 <td>Ravi</td>
                 <td>Shastri</td>
                 <td>100</td>
-                <td>View</td>
-                 <td><a href="#">Delete</a></td>
+<!--                <td><a href="#">
+          <span class="glyphicon glyphicon-eye-open"></span>
+        </a></td>-->
+                 <td><a href="#">
+          <span class="glyphicon glyphicon-pencil"></span>
+        </a><a href="#">
+          <span class="glyphicon glyphicon-trash"></span>
+        </a></td>
               </tr>
               <tr>
                 <td>3</td>
@@ -96,8 +114,14 @@
                 <td>Arjun</td>
                 <td>Verma</td>
                 <td>400</td>
-                <td>View</td>
-                <td><a href="#">Delete</a></td>
+<!--                <td><a href="#">
+          <span class="glyphicon glyphicon-eye-open"></span>
+        </a></td>-->
+                <td><a href="#">
+          <span class="glyphicon glyphicon-pencil"></span>
+        </a> <a href="#">
+          <span class="glyphicon glyphicon-trash"></span>
+        </a></td>
               </tr>
               <tr>
                 <td>4</td>
@@ -105,8 +129,14 @@
                 <td>Karan</td>
                 <td>Joshi</td>
                 <td>900</td>
-                <td>View</td>
-                <td><a href="#">Delete</a></td>
+<!--                <td><a href="#">
+          <span class="glyphicon glyphicon-eye-open"></span>
+        </a></td>-->
+                <td><a href="#">
+          <span class="glyphicon glyphicon-pencil"></span>
+        </a> <a href="#">
+          <span class="glyphicon glyphicon-trash"></span>
+        </a></td>
               </tr>
               <tr>
                 <td>5</td>
@@ -114,8 +144,14 @@
                 <td>dilip</td>
                 <td>Rai</td>
                 <td>600</td>
-                <td>View</td>
-                <td><a href="#">Delete</a></td>
+<!--                <td><a href="#">
+          <span class="glyphicon glyphicon-eye-open"></span>
+        </a></td>-->
+                <td><a href="#">
+          <span class="glyphicon glyphicon-pencil"></span>
+        </a> <a href="#">
+          <span class="glyphicon glyphicon-trash"></span>
+        </a></td>
               </tr>
               <tr>
                 <td></td>

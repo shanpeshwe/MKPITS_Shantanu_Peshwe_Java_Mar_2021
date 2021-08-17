@@ -1,4 +1,9 @@
 <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
     <title>CMS - Customer Billing</title>
  <jsp:include page="menubar.html"></jsp:include> 
 </head>
@@ -68,7 +73,9 @@
         <td>Januray</td>
         <td>01-08-21</td>
         <td>1000</td>
-        <td><a href="#">Delete</a></td>
+        <td><a href="#">
+          <span class="glyphicon glyphicon-trash"></span>
+        </a></td>
 
 
       </tr>
@@ -76,13 +83,17 @@
         <td>Febraury</td>
         <td>02-08-21</td>
         <td>2000</td>
-        <td><a href="#">Delete</a></td>
+        <td><a href="#">
+          <span class="glyphicon glyphicon-trash"></span>
+        </a></td>
 
       <tr>
         <td>March</td>
         <td>03-08-21</td>
         <td>3000</td>
-        <td><a href="#">Delete</a></td>
+        <td><a href="#">
+          <span class="glyphicon glyphicon-trash"></span>
+        </a></td>
 
       </tr>
 
