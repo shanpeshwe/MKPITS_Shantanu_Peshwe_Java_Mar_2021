@@ -4,7 +4,11 @@
     Author     : COM
 --%>
 
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.Statement"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,33 +16,59 @@
         <title>JSP Register Page</title>
     </head>
     <body>
-        <%! 
-            String companyname,username,email,contactnumber,password,repeatpassword;
-            //String check(String n,String p) {
-               // if(n.equals("admin") && p.equals("admin")) {
-               //     return "login successfull";
-               // }
-               // else{
-               //     return "invalid credentials";
-               // }
-            //}
-        %>
-        
-        <%
-            this.companyname=request.getParameter("companyname");
-            this.username=request.getParameter("username");
-            this.email=request.getParameter("email");
-            this.contactnumber=request.getParameter("contactnumber");
-            this.password=request.getParameter("password");
-            this.repeatpassword=request.getParameter("repeatpassword");
+        <%!
+            String res = null;
+            String res1 = null;
+            Connection con = null;
+            Statement stmt = null;
+
+            //method to connect to mysql database
+            public String connect() {
+                try {
+                    Class.forName("com.mysql.jdbc.Driver");
+                    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cms_project", "root", "");
+                    //con.open();
+                    res = "connected";
+                } catch (Exception e) {
+                    //out.print(e);
+                    res = e.toString();
+                }
+                return res;
+            }
+
             
+
+            public String addadmin(String companyname, String username, String email, String contactnumber, String password) {
+                Statement stmt = null;
+                try {
+                    String str = connect();
+                    String qr = "insert into admin (companyname,username,emailaddress,contactnumber,password) values ('" + companyname + "','" + username + "','" + email + "','" + contactnumber + "','" + password + "')";
+                    stmt = con.createStatement();
+                    stmt.executeUpdate(qr);
+                    res1 = "record inserted successfully";
+                } catch (Exception e) {
+                    res1 = e.toString();
+                }
+                return res1;
+            }
         %>
-       
+
+        <%
+            String companyname, username, email, contactnumber, password;
+            companyname = request.getParameter("companyname");
+            username = request.getParameter("username");
+            email = request.getParameter("email");
+            contactnumber = request.getParameter("contactnumber");
+            password = request.getParameter("password");
+            String res=addadmin(companyname, username, email, contactnumber, password);
+            out.println(res);
+        %>
+
         <%= companyname%>
         <%= username%>
         <%= email%>
         <%= contactnumber%>
         <%= password%>
-        <%= repeatpassword%>
+        <%= res%>
     </body>
 </html>
