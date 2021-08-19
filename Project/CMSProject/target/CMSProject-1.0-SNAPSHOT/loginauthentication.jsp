@@ -25,7 +25,7 @@
             //To forward page based on admin authentication
             if (res2.equals("User Not Found, Please register below!!")) {%>
         <!-- To Add register page -->
-        <jsp:include page="register.html" />
+        <jsp:include page="register.jsp" />
         <%
         } else {%>
         <!-- To Add register page -->

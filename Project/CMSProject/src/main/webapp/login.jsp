@@ -50,11 +50,11 @@
                                         <form class="user" action="loginauthentication.jsp" method="post">
                                             <div class="form-group">
                                                 <input type="username" class="form-control form-control-user"
-                                                       name="username" placeholder="username">
+                                                       name="username" placeholder="username" required>
                                             </div>
                                             <div class="form-group">
                                                 <input type="password" class="form-control form-control-user"
-                                                       name="password" placeholder="password">
+                                                       name="password" placeholder="password" required>
                                             </div>
                                             <div class="form-group">
                                                 <div class="custom-control custom-checkbox small">

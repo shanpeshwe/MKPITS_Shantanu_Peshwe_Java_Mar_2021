@@ -46,31 +46,31 @@
                                     <div class="form-group row">
                                         <div class="col-sm-6 mb-3 mb-sm-0">
                                             <input type="text" class="form-control form-control-user" name="companyname"
-                                                   placeholder="Company Name">
+                                                   placeholder="Company Name" required>
                                         </div>
                                         <div class="col-sm-6">
                                             <input type="text" class="form-control form-control-user" name="username"
-                                                   placeholder="Username">
+                                                   placeholder="Username" required>
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <div class="col-sm-6 mb-3 mb-sm-0">
                                             <input type="email" class="form-control form-control-user" name="email"
-                                                   placeholder="Email Address">
+                                                   placeholder="Email Address" required>
                                         </div>
                                         <div class="col-sm-6">
                                             <input type="text" class="form-control form-control-user" name="contactnumber"
-                                                   placeholder="Contact Number">
+                                                   placeholder="Contact Number" required>
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <div class="col-sm-6 mb-3 mb-sm-0">
                                             <input type="password" class="form-control form-control-user"
-                                                   name="password" placeholder="Password">
+                                                   name="password" placeholder="Password" required>
                                         </div>
                                         <div class="col-sm-6">
                                             <input type="password" class="form-control form-control-user"
-                                                   name="repeatpassword" placeholder="Repeat Password">
+                                                   name="repeatpassword" placeholder="Repeat Password" required>
                                         </div>
                                     </div>
                                     <br>
