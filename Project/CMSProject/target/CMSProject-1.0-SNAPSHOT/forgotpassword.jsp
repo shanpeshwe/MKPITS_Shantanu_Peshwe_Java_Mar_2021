@@ -1,3 +1,10 @@
+<%-- 
+    Document   : forgotpassword
+    Created on : Aug 19, 2021, 4:52:03 PM
+    Author     : COM
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,10 +63,10 @@
                                     </form>
                                     <br>
                                     <div class="text-center">
-                                        <a class="small" href="register.html">Create an Account!</a>
+                                        <a class="small" href="register.jsp">Create an Account!</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="login.html">Already have an account? Login!</a>
+                                        <a class="small" href="login.jsp">Already have an account? Login!</a>
                                     </div>
                                 </div>
                             </div>
