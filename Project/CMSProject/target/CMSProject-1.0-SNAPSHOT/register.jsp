@@ -4,9 +4,8 @@
     Author     : COM
 --%>
 
-<%@page import="java.sql.DriverManager"%>
-<%@page import="java.sql.Connection"%>
-<%@page import="java.sql.Statement"%>
+<%@page import="com.cablecms.addadmin"%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
@@ -16,42 +15,6 @@
         <title>JSP Register Page</title>
     </head>
     <body>
-        <%!
-            String res;
-            String res1;
-            Connection con;
-            Statement stmt;
-
-            //method to connect to mysql database
-            public String connect() {
-                try {
-                    Class.forName("com.mysql.jdbc.Driver");
-                    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cms_project", "root", "");
-                    //con.open();
-                    res = "connected";
-                } catch (Exception e) {
-                    //out.print(e);
-                    res = e.toString();
-                }
-                return res;
-            }
-
-            
-
-            public String addadmin(String companyname, String username, String email, String contactnumber, String password) {
-                Statement stmt = null;
-                try {
-                    String str = connect();
-                    String qr = "insert into admin (companyname,username,emailaddress,contactnumber,password) values ('" + companyname + "','" + username + "','" + email + "','" + contactnumber + "','" + password + "')";
-                    stmt = con.createStatement();
-                    stmt.executeUpdate(qr);
-                    res1 = "record inserted successfully";
-                } catch (Exception e) {
-                    res1 = e.toString();
-                }
-                return res1;
-            }
-        %>
 
         <%
             String companyname, username, email, contactnumber, password;
@@ -60,15 +23,11 @@
             email = request.getParameter("email");
             contactnumber = request.getParameter("contactnumber");
             password = request.getParameter("password");
-            String res=addadmin(companyname, username, email, contactnumber, password);
-            out.println(res);
+            String res2=addadmin.addadmin(companyname, username, email, contactnumber, password);
+            out.println(res2);
         %>
-
-        <%= companyname%>
-        <%= username%>
-        <%= email%>
-        <%= contactnumber%>
-        <%= password%>
-        <%= res%>
+        
+        <!-- To Add login page -->
+        <jsp:include page="login.html" />
     </body>
 </html>
