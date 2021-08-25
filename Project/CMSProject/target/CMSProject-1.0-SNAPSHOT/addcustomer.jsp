@@ -34,53 +34,71 @@
                                                 <h1 class="h4 text-gray-900 mb-4"><strong>Add Your New Customer</strong></h1>
                                             </div>
                                             <div class="card-body card shadow mb-8" >
-                                                <form class="user">
-                                                    <div class="form-group" >
-                                                        <input type="text" style="align:center" class="form-control form-control-user"
-
-                                                               placeholder="Set-top Boxno." required>
+                                                <form class="user" action="customerindb.jsp" method="post">
+                                                   
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control form-control-user" name="firstname"
+                                                               placeholder="First Name" >
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="text" class="form-control form-control-user"
-                                                               placeholder="First Name" required>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control form-control-user"
+                                                        <input type="text" class="form-control form-control-user" name="lastname"
                                                                placeholder="Last Name" >
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="number" class="form-control form-control-user"
-                                                               placeholder="Phone Number" required >
+                                                        <input type="number" class="form-control form-control-user"name="phoneno"
+                                                               placeholder="Phone Number"  >
                                                     </div>
 
                                                     <div class="form-group">
-                                                        <input type="text" class="form-control form-control-user"
-                                                               placeholder="Address">
+                                                        <input type="text" class="form-control form-control-user"name="address"
+                                                               placeholder="Address" >
                                                     </div>
                                                     <div class="form-group" >
-                                                        <input type="text" class="form-control form-control-user"
-                                                               placeholder="Email">
+                                                        <input type="text" class="form-control form-control-user"name="email"
+                                                               placeholder="Email" >
                                                     </div>
                                                     <div class="form-group" >
 
-                                                        <!--                            <label>State (Select your State)</label>-->
-                                                        <select class="form-control "form-control-user   >
-                                                            <option>Silver</option>
-                                                            <option>Gold</option>
-                                                            <option>Platinium</option>
+                                                                                    <label> (Select your Packageamount)</label>
+                                                        <select class="form-control "form-control-user  name="packageamount" >
+                                                            <option>200</option>
+                                                            <option>400</option>
+                                                            <option>600</option>
 
                                                         </select>
                                                     </div>
 
                                                     <div class="form-group" border-radius: 25px;>
 
-                                                        <!--                            <label>State (Select your State)</label>-->
-                                                        <select class="form-control "form-control-user  >
+                                                                                    <label> (Select your Area)</label>
+                                                        <select class="form-control "form-control-user  name="area">
                                                             <option>Gandhibag</option>
                                                             <option>Mahal</option>
                                                             <option>Sadar</option>
                                                         </select>
                                                     </div>
+                                                    
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control form-control-user" name="balance"
+                                                               placeholder="Balance" >
+                                                    </div>
+                                                    
+                                                     <div class="form-group" >
+                                                        <input type="text"  class="form-control form-control-user" name="setupboxno"
+
+                                                               placeholder="Set-top Boxno." >
+                                                    </div>
+                                                    
+                                                    <div class="form-group" border-radius: 25px;>
+
+                                                                                    <label> (Status)</label>
+                                                        <select class="form-control "form-control-user  name="status">
+                                                            <option>Active</option>
+                                                            <option>Inactive</option>
+                                                            
+                                                        </select>
+                                                    </div>
+                                                    
                                                     <input type="submit" value="Add Customer" class="btn btn-primary btn-user btn-block">
                                                 </form>
                                             </div>
