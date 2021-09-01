@@ -20,7 +20,7 @@ public class searchcustomer {
                 
                 try {
                     Connection con = dbconnect.getConnection();
-                    String qr ="select `firstname`, `lastname`,`area`,`package`,`balance`,`status` from `customer`" ;
+                    String qr ="select `firstname`, `lastname`,`area`,`packageamount`,`balance`,`status` from `customer`" ;
                     PreparedStatement ps = con.prepareStatement(qr);
                     resultSet=ps.executeQuery();
                 } catch (Exception e) {
