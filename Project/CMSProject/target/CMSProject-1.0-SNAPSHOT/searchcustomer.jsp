@@ -3,7 +3,12 @@
 <head>
     <title>CMS - Customer</title>
     <jsp:include page="menubar.html"></jsp:include> 
-</head>
+    </head>
+
+<%!
+    ResultSet resultset = null;
+    String name, status;
+%>
 
 <!-- Begin Page Content -->
 <div class="container-fluid">
@@ -17,22 +22,22 @@
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label">By Customer name :</label>
                 <div class="col-sm-3">
-                    <input class="form-control" id="customername" placeholder="Enter name">
+                    <input class="form-control" name="name" placeholder="Enter name">
                 </div>
             </div>
             <!-- Row 2 -->
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label">By Status :</label>
                 <div class="col-sm-3">
-                    <select class="form-control "form-control-user  >
-                        <option>---</option>
-                        <option>Active</option>
-                        <option>Inactive</option>
+                    <select class="form-control "form-control-user name="status">
+                        
+                        <option value="Active">Active</option>
+                        <option value="Inactive">Inactive</option>
                     </select>
                 </div>
                 <div class="col-sm-2"></div>
                 <div class="col-sm-2">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary" >Submit</button>
                 </div>
             </div>
         </form>
@@ -58,20 +63,19 @@
                             <th>Delete</th>
                         </tr>
                     </thead>
-                    <%!
-                        ResultSet resultset=null;
-                    %>
                     <%
-                        resultset=searchcustomer.searchcustomer();
+                        name = request.getParameter("name");
+                        status = request.getParameter("status");
+                        resultset = searchcustomer.searchCustomer(name,status);
                     %>
                     <tbody>
-                        <% while(resultset.next()){ %>
+                        <% while (resultset.next()) {%>
                         <tr>
-                            <td><%= resultset.getString(1) %> <%= resultset.getString(2) %></td>
-                            <td><%= resultset.getString(3) %></td>
-                            <td><%= resultset.getString(4) %></td>
-                            <td><%= resultset.getString(5) %></td>
-                            <td><%= resultset.getString(6) %></td>
+                            <td><%= resultset.getString(1)%> <%= resultset.getString(2)%></td>
+                            <td><%= resultset.getString(3)%></td>
+                            <td><%= resultset.getString(4)%></td>
+                            <td><%= resultset.getString(5)%></td>
+                            <td><%= resultset.getString(6)%></td>
                             <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
                                     <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
                                     <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
@@ -80,7 +84,7 @@
                                     <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z"/>
                                     </svg></a></td>
                         </tr>
-                        <% } %>
+                        <% }%>
                     </tbody>
                 </table>
             </div>
