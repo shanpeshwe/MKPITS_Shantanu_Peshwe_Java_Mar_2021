@@ -13,12 +13,12 @@ import java.sql.Connection;
  *
  * @author COM
  */
-public class addadmin {
-    public static String addadmin(String companyname, String username, String email, String contactnumber, String password) {
+public class AddAdmin {
+    public static String addAdmin(String companyname, String username, String email, String contactnumber, String password) {
                 Statement stmt = null;
                 String res1=null;
                 try {
-                    Connection con = dbconnect.getConnection();
+                    Connection con = DbConnect.getConnection();
                     String qr = "insert into admin (companyname,username,emailaddress,contactnumber,password) values ('" + companyname + "','" + username + "','" + email + "','" + contactnumber + "','" + password + "')";
                     stmt = con.createStatement();
                     stmt.executeUpdate(qr);

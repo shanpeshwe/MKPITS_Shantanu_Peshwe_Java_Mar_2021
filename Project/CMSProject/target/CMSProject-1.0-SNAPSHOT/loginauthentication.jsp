@@ -4,7 +4,7 @@
     Author     : COM
 --%>
 
-<%@page import="com.cablecms.loginauthentication"%>
+<%@page import="com.cablecms.LoginAuthentication"%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
@@ -19,7 +19,7 @@
             String username, password;
             username = request.getParameter("username");
             password = request.getParameter("password");
-            String res2 = loginauthentication.loginauthentication(username, password);
+            String res2 = LoginAuthentication.loginAuthentication(username, password);
             out.println(res2);
 
             //To forward page based on admin authentication

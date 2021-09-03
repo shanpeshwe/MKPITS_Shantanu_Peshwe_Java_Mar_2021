@@ -4,7 +4,7 @@
     Author     : COM
 --%>
 
-<%@page import="com.cablecms.addadmin"%>
+<%@page import="com.cablecms.AddAdmin"%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
@@ -23,7 +23,7 @@
             email = request.getParameter("email");
             contactnumber = request.getParameter("contactnumber");
             password = request.getParameter("password");
-            String res2=addadmin.addadmin(companyname, username, email, contactnumber, password);
+            String res2=AddAdmin.addAdmin(companyname, username, email, contactnumber, password);
             out.println(res2);
         %>
         

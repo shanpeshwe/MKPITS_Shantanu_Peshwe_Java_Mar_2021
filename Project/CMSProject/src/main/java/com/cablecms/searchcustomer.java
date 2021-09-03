@@ -10,20 +10,21 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-public class searchcustomer {
+public class SearchCustomer {
 
-    public static ResultSet searchCustomer(String name,String status) {
+    public static ResultSet searchCustomer(String name, String status) {
         Statement stmt = null;
         ResultSet resultSet = null;
         String qr;
         try {
-            Connection con = dbconnect.getConnection();
+            Connection con = DbConnect.getConnection();
             if (name != null && name.length() > 0 && status != null && status.length() > 0) {
                 qr = "select `firstname`, `lastname`,`area`,`packageamount`,`balance`,`status` from `customer` where `firstname`='" + name + "' and `status`='" + status + "' ";
-            } else if (status != null && status.length() > 0){
+            } else if (status != null && status.length() > 0) {
                 qr = "select `firstname`, `lastname`,`area`,`packageamount`,`balance`,`status` from `customer` where `status`='" + status + "' ";
-            }
-            else {
+            } else if (name != null && name.length() > 0) {
+                qr = "select `firstname`, `lastname`,`area`,`packageamount`,`balance`,`status` from `customer` where `firstname`='" + name + "' "; 
+            } else {
                 qr = "select `firstname`, `lastname`,`area`,`packageamount`,`balance`,`status` from `customer`";
             }
             PreparedStatement ps = con.prepareStatement(qr);

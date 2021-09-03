@@ -1,4 +1,4 @@
-<%@page import="com.cablecms.searchcustomer"%>
+<%@page import="com.cablecms.SearchCustomer"%>
 <%@page import="java.sql.ResultSet"%>
 <head>
     <title>CMS - Customer</title>
@@ -20,7 +20,7 @@
         <form>
             <!-- Row 1 -->
             <div class="form-group row">
-                <label class="col-sm-2 col-form-label">By Customer name :</label>
+                <label class="col-sm-2 col-form-label">By First Name :</label>
                 <div class="col-sm-3">
                     <input class="form-control" name="name" placeholder="Enter name">
                 </div>
@@ -30,7 +30,7 @@
                 <label class="col-sm-2 col-form-label">By Status :</label>
                 <div class="col-sm-3">
                     <select class="form-control "form-control-user name="status">
-                        
+                        <option value="">---</option>
                         <option value="Active">Active</option>
                         <option value="Inactive">Inactive</option>
                     </select>
@@ -66,7 +66,7 @@
                     <%
                         name = request.getParameter("name");
                         status = request.getParameter("status");
-                        resultset = searchcustomer.searchCustomer(name,status);
+                        resultset = SearchCustomer.searchCustomer(name,status);
                     %>
                     <tbody>
                         <% while (resultset.next()) {%>
