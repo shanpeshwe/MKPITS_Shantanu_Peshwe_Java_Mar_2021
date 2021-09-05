@@ -4,7 +4,7 @@
     Author     : sony
 --%>
 
-<%@page import="com.cablecms.addcustomer"%>
+<%@page import="com.cablecms.AddCustomer"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -25,7 +25,7 @@
             balance = request.getParameter("balance");
             setupboxno = request.getParameter("setupboxno");
             status = request.getParameter("status");
-            String res2=addcustomer.addcustomer(firstname, lastname, phoneno, address, email, packageamount, area,balance,setupboxno,status);
+            String res2=AddCustomer.addcustomer(firstname, lastname, phoneno, address, email, packageamount, area,balance,setupboxno,status);
             out.println(res2);
         %>
     </body>

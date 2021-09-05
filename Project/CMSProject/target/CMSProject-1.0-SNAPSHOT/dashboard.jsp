@@ -5,7 +5,7 @@
 
 <head>
     <title>CMS - Dashboard</title>
-    <jsp:include page="menubar.html"></jsp:include>
+    <jsp:include page="menubar.jsp"></jsp:include>
     </head>
 
     <!-- Begin Page Content -->

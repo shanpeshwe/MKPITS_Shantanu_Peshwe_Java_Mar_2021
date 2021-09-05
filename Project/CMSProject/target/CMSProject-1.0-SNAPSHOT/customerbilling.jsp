@@ -5,7 +5,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
     <title>CMS - Customer Billing</title>
- <jsp:include page="menubar.html"></jsp:include> 
+ <jsp:include page="menubar.jsp"></jsp:include> 
 </head>
 
       <!-- Begin Page Content -->

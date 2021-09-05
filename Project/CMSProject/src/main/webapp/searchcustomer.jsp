@@ -2,7 +2,7 @@
 <%@page import="java.sql.ResultSet"%>
 <head>
     <title>CMS - Customer</title>
-    <jsp:include page="menubar.html"></jsp:include> 
+    <jsp:include page="menubar.jsp"></jsp:include> 
     </head>
 
 <%!

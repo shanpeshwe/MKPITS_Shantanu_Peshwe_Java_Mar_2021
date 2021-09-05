@@ -27,11 +27,10 @@
         <!-- To Add register page -->
         <jsp:include page="register.jsp" />
         <%
-        } else {%>
-        <!-- To Add register page -->
-        <jsp:include page="dashboard.jsp" />
-        <%
-            }
-        %>
+            } else {
+                session.setAttribute("username", username);
+                response.sendRedirect("dashboard.jsp");
+            }%>
+
     </body>
 </html>
