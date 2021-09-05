@@ -12,7 +12,7 @@ import java.sql.ResultSet;
 
 public class SearchCustomer {
 
-    public static ResultSet searchCustomer(String name, String status) {
+    public static ResultSet searchCustomer (String name, String status) {
         Statement stmt = null;
         ResultSet resultSet = null;
         String qr;
