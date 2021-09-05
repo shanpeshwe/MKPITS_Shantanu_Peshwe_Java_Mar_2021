@@ -1,0 +1,7 @@
+com\mycompany\cablemanagesystem\resources\JavaEE8Resource.class
+com\cablecms\DbConnect.class
+com\cablecms\AddCustomer.class
+com\cablecms\LoginAuthentication.class
+com\mycompany\cablemanagesystem\JAXRSConfiguration.class
+com\cablecms\AddAdmin.class
+com\cablecms\SearchCustomer.class
